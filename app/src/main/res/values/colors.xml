@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primary">#17578C</color>
+    <color name="primary_dark">#405b98</color>
+    <color name="primary_light">#D7CCC8</color>
+    <color name="accent">#5579cb</color>
+    <color name="accent_light">#6d9aff</color>
+    <color name="accent_very_light">#FFE0B2</color>
+    <color name="primary_text">#D9000000</color>
+    <color name="secondary_text">#D9FFFFFF</color>
+    <!-- 54% of #000000 -->
+    <color name="icon_light_background">#89000000</color>
+    <!-- Inactive 26% of #000000 -->
+    <color name="icon_light_background_inactive">#42000000</color>
+    <!-- 100% of #FFFFFF -->
+    <color name="icon_dark_background">#FFFFFFFF</color>
+    <!-- Inactive 30% of #FFFFFF -->
+    <color name="icon_dark_background_inactive">#4CFFFFFF</color>
+    <color name="divider">#1E000000</color>
+
+    <!--It seems like these two should be build into Android but I'm not sure where to find them. -->
+    <!--using the divider above seemed too dark but I think that was what the guidelines
+    recommended -->
+    <color name="heading_divider">#AAFFFFFF</color>
+    <color name="caption">#89000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="sick_primary">#D32F2F</color>
+    <color name="sick_primary_dark">#B71C1C</color>
+    <color name="dark_gray">#363636</color>
+    <color name="vacation_primary">#1976D2</color>
+    <color name="vacation_primary_dark">#0D47A1</color>
+    <color name="other_primary">#607D8B</color>
+    <color name="other_primary_dark">#263238</color>
+    <color name="windowBackground">#e7e7e7</color>
+</resources>

@@ -1,0 +1,37 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="keyline_1">16dp</dimen>
+    <!--This is the difference between the keyline_1 default and this keyline_1 (the same in this case)-->
+    <dimen name="keyline_1_difference_from_default">0dp</dimen>
+    <dimen name="keyline_2">72dp</dimen>
+    <dimen name="keyline_3_from_end">16dp</dimen>
+
+    <dimen name="icon_size">24dp</dimen>
+
+    <dimen name="fab_size">56dp</dimen>
+    <dimen name="fab_elevation">@dimen/elevation_x5</dimen>
+    <dimen name="fab_press_translation_z">6dp</dimen>
+
+    <dimen name="toolbar_size_x2">112dp</dimen>
+
+    <!--I Don't know how these elevations look... might be too granular-->
+    <dimen name="elevation_flat">0dp</dimen>
+    <dimen name="elevation_x2">2dp</dimen>
+    <dimen name="elevation_x3">4dp</dimen>
+    <dimen name="elevation_x4">6dp</dimen>
+    <dimen name="elevation_x5">8dp</dimen>
+
+    <dimen name="standard_line_height">48dp</dimen>
+    <dimen name="vertical_divide_space">8dp</dimen>
+    <dimen name="horizontal_divide_space">16dp</dimen>
+
+    <dimen name="form_control_divider_height">1dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="menu_employee_size">30sp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="titre_dim_organization">30dp</dimen>
+</resources>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorPrimaryDark">@color/primary_dark</item>
+        <item name="colorAccent">@color/accent</item>
+        <item name="android:textColorPrimary">@color/primary_text</item>
+        <item name="android:textColor">@color/primary_text</item>
+        <item name="android:textColorSecondary">@color/secondary_text</item>
+        <item name="toolbarNavigationButtonStyle">@style/Theme.ToolbarNavigationButtonStyle</item>
+        <item name="toolbarStyle">@style/Theme.ToolbarStyle</item>
+        <item name="android:listDivider">@color/divider</item>
+        <item name="android:editTextStyle">@style/Theme.EditTextStyle</item>
+        <item name="switchStyle">@style/Theme.SwitchStyle</item>
+        <item name="android:checkedTextViewStyle">@style/Theme.CheckedTextViewStyle</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+    </style>
+    <!--For pre-lollipop we don't need to do anything -->
+    <style name="Theme.ColorChangeSystemBars" parent="Theme.AppTheme"></style>
+
+    <style name="Theme.Toolbar" parent="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+        <item name="android:textSize">@dimen/abc_text_size_small_material</item>
+        <item name="contentInsetStart">@dimen/keyline_2</item>
+        <item name="contentInsetLeft">@dimen/keyline_2</item>
+        <item name="android:titleTextStyle">@style/CustomThemeActionBarTitleTextStyle</item>
+    </style>
+
+    <style name="Theme.ToolbarNavigationButtonStyle" parent="@style/Widget.AppCompat.Toolbar.Button.Navigation">
+        <!--When using the standard 16dp keyline 1, the icon matches, but when the keyline 1 doesn't match,
+        we need to adjust for that.-->
+        <item name="android:paddingLeft">@dimen/keyline_1_difference_from_default</item>
+    </style>
+
+    <style name="Theme.ToolbarStyle" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="android:paddingRight">@dimen/keyline_3_from_end</item>
+    </style>
+
+    <style name="Theme.SpinnerNoDropDown" parent="@style/Base.Widget.AppCompat.Spinner">
+        <item name="android:background">#00000000</item>
+    </style>
+
+    <style name="Theme.SpinnerItem" parent="@style/Widget.AppCompat.DropDownItem.Spinner">
+        <item name="android:textSize">@dimen/abc_text_size_subhead_material</item>
+        <item name="android:layout_marginLeft">0dp</item>
+        <item name="android:paddingLeft">0dp</item>
+    </style>
+
+    <style name="Theme.SwitchStyle" parent="@style/Widget.AppCompat.CompoundButton.Switch">
+        <item name="android:textSize">@dimen/abc_text_size_subhead_material</item>
+        <item name="android:color">@color/dark_gray</item>
+    </style>
+
+    <style name="Theme.EditTextStyle" parent="@style/Widget.AppCompat.EditText">
+
+        <item name="android:textSize">@dimen/abc_text_size_subhead_material</item>
+    </style>
+
+    <style name="Theme.CheckedTextViewStyle" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/abc_text_size_subhead_material</item>
+    </style>
+
+    <style name="Theme.TranslucentToolbarStyle" parent="@style/Theme.Toolbar">
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+
+</resources>

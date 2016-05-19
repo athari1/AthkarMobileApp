@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.ites.makkahleave.mobileerp.activity.MainActivity"
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    android:gravity="center|fill_horizontal|center_vertical"
+    android:weightSum="1">
+
+    <ImageView
+        android:layout_width="362dp"
+        android:layout_height="0dp"
+        android:id="@+id/imageView2"
+        android:layout_gravity="center"
+        android:src="@drawable/icon_home"
+        android:layout_margin="10dp"
+        android:layout_weight="0.5" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:weightSum="3"
+        android:orientation="horizontal"
+        android:layout_gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".2" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="2.6"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".1"
+                android:id="@+id/btn_mokadema"
+                android:background="@drawable/button_blue1"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:text="مقدمة"
+                android:textColor="#ffffff"
+                android:textSize="50sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".1"
+                android:id="@+id/btn_athaker_sabeh"
+                android:background="@drawable/button_blue1"
+                android:layout_marginBottom="5dp"
+                android:layout_gravity="center"
+                android:text="أذكار الصباح"
+                android:textColor="#ffffff"
+                android:textSize="50sp" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".1"
+                android:id="@+id/btn_athaker_mase2"
+                android:background="@drawable/button_blue1"
+                android:layout_gravity="center"
+                android:text="أذكار المساء"
+                android:textColor="#ffffff"
+                android:textSize="50sp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight=".2" />
+    </LinearLayout>
+
+
+</LinearLayout>
