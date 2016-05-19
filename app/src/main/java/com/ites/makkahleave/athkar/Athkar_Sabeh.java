@@ -7,6 +7,7 @@ import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
+import android.widget.Toast;
 
 public class Athkar_Sabeh extends AppCompatActivity {
 
@@ -24,6 +25,7 @@ public class Athkar_Sabeh extends AppCompatActivity {
         mTitle.setText(R.string.app_name);
         assert getSupportActionBar() != null;
         getSupportActionBar().setDisplayHomeAsUpEnabled(true);
+        Toast.makeText(Athkar_Sabeh.this,"marehbe bik", Toast.LENGTH_LONG).show();
     }
 
     @Override
